@@ -1,0 +1,327 @@
+body{
+    margin: 0%;
+    padding: 0%;
+}
+.main{
+    width: 100%;
+    background-image: url("images/coffee.jpg");
+}
+.background{
+    height: 700px;
+}
+li{
+    color: #ffffffe3;
+    padding: 10px;
+    border-bottom: 2px solid transparent;
+    transition: border-color 0.5s ease-in-out;
+
+}
+.roundborder{
+    border-radius: 40px;
+    margin-right: 10%;
+}
+li:hover{
+   border-color: white;
+}
+.navbar.scrolled {
+    background-image: none;
+    background-color: #ffffff;
+    position: fixed;
+}
+.navbar.scrolled li{
+    color: gray;
+}
+.navbar.scrolled li:hover{
+    border-color: rgb(9, 100, 219);
+}
+.navbar.scrolled{
+    position: fixed;
+}
+.center{
+    text-align: center;
+    margin-top: 2%;
+}
+h2{
+    color:rgb(9, 100, 219);
+}.topmargin{
+    margin-top: 5%;
+    margin-bottom: 2%;
+}
+.mid{
+    margin-left: 46%;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 40px;
+    background-color: white;
+    margin-top: 3%;
+}
+
+.image-container{
+    display: grid;
+    grid-template-rows: 500px;
+    grid-template-columns: 280px 280px 280px 280px ;
+    gap: 10px;
+   margin-left:10%;
+   margin-top: 9%;
+   margin-bottom: 0%;
+}
+.card-image{
+    height:70% ;
+    width: 100%;
+    border-radius: 5%;
+}
+.card1{
+    background-image: url("images/card1.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    transition: background-size 3s ease-in-out ;
+}
+.card2{
+    background-image: url("images/card2.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    transition: background-size 3s ease-in-out ;
+}.card3{
+    background-image: url("images/card3.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    transition: background-size 3s ease-in-out ;
+}.card4{
+    background-image: url("images/card4.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    transition: background-size 3s ease-in-out ;
+}
+.icon{
+    height: 15%;
+    width: 15%;
+    margin-top: 70%;
+    margin-left: 8%;
+   color: #ffffff;
+   display:block;
+}
+.left{
+    margin-left:18%; ;
+}
+.card1:hover{
+    background-size: 150% 150%;
+}.card2:hover{
+    background-size: 150% 150%;
+}.card3:hover{
+    background-size: 150% 150%;
+}.card4:hover{
+    background-size: 150% 150%;
+}
+.whitehead{
+    color: #ffffff;
+    font-weight: bold;
+    margin-left: 5%;
+    margin-bottom: 0%;
+    display: inline;
+}
+.hoverpara{
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity 0.5s linear;
+    font-size: medium;
+   }
+   .card-image:hover .hoverpara {
+    visibility: visible;
+    opacity: 1;
+    color: #ffffff;
+   }
+   
+.card-image:hover .icon{
+    position: relative;
+    bottom: 14%;
+}.card-image:hover .whitehead{
+    position: relative; 
+     bottom: 10%;
+}
+.card-image{
+    display: inline-block;
+}  
+.blog{
+    background-color: rgb(231, 228, 228);
+    width: 100%;
+    height: 500px;
+    margin-top: 0%;
+}
+#zerotop{
+    margin-top: 0%;
+    padding-top: 3%;
+    font-weight: bolder;
+    font-size: 50px;
+    background-color:  rgb(231, 228, 228);
+}
+.grid{
+    display: grid;
+    grid-template-rows: 80px 80px 80px 80px;
+    grid-template-columns: 250px 250px 250px ;
+    margin-top: 5%;
+    margin-left: 25%;
+}
+.orange{
+    color: #DD9933;
+}
+.cardstyle{
+    margin-left: 13%;
+    padding: 18%;
+    text-align: center;
+    display: inline;
+    
+}
+.cardhead{
+    color: black;
+    margin: 3% 3.5% 2% 3.5%;
+}
+.cardsgrid{
+    display: grid;
+    grid-template-rows: 500px 500px 550px 500px 500px 600px 600px;
+    grid-template-columns: 400px 400px 400px  ;
+    row-gap: 28px;
+    column-gap: 10px;
+}
+.card{
+    display: inline-block;
+    box-shadow: 0 20px 20px 0 rgba(0, 0, 0, 0.2), 0 20px 20px 0 rgba(0, 0, 0, 0.19);
+    position: unset;
+}
+.card-img-top:hover{
+    width: 22.2rem;
+}
+.galleryimg{
+    width: 30%;
+    height: 30%;
+    margin: auto;
+}
+.gallery{
+    margin-left: 9%;
+}
+.gallerypara{
+    display: inline;
+    margin-left: 5%;
+}
+.gallerypara1{
+    display: inline;
+    margin-left: 9%;
+}
+#gallerybtn{
+    display: inline; 
+    padding: 6px;
+    border: 2px solid black;
+    border-radius: 40px;
+    background-color: white;
+    margin-top: 1%;
+}
+.gallerybtn2{
+    margin-left: 23%;
+}
+.gallerybtn1{
+    margin-left: 9%;
+}
+
+.career{
+    background-image: url("images/blur3.jpeg");
+    width: 100%;
+    height: 350px;
+    margin-top: 6%;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.lefthead{
+    margin: 2% 0 0 8%;
+    display: inline;
+}
+.leftpara{
+    margin-left: 8%;
+    margin-top: 3%;
+}
+.float{
+    float: right;
+    height: 100%;
+    width: 30%;
+    margin-top: 0;
+    margin-right: 8%;
+}
+#transparent{
+    padding: 8px;
+    border: 2px solid black;
+    border-radius: 40px;
+    margin-left: 8%;
+}
+.form{
+   margin-left: 8%;
+}
+label{
+    margin-top: 5%;
+    margin-left: 6%;
+    display: inline-block;
+}
+.input{
+    margin-left: 6%;
+    background-color: #f7f7f7ef;
+    border: none;
+    box-shadow: 1px 1px 1px 1px grey;
+
+}
+.submit{
+    padding: 8px;
+    border: 2px solid rgb(9, 100, 219);
+    border-radius: 40px;
+    margin-left: 7%;
+    margin-top: 3%;
+    width: 10%;
+    display: inline-block;
+    background-color: #ffffff;
+    color:rgb(9, 100, 219) ;
+}
+.slider{
+    width: 10%;
+    height: 80%;
+}
+.carousel{
+    display: inline-block;
+    width: 100%;
+    height: 100px;
+    margin-left: 20%;
+}
+.arrow{
+    height: 5%;
+    width: 5%;
+}
+.map{
+    width: 100% ;
+    height: 500px;
+}
+.footerimg{
+    float: left;
+    margin-left: 5%;
+    height: 20%;
+    width: 20%;
+}
+.gridtwo{
+    display: grid;
+    grid-template-rows: 50px 200px;
+    grid-template-columns: 200px 200px 200px;
+    gap: 10%;
+}
+.links{
+    background-color: black;
+    width: 100%;
+    height: 200px;
+    margin: auto;
+}
+.endpara{
+    color: grey;
+margin-left: 45%;
+margin-top: 15%;
+}.endimg{
+    height: 15%;
+    width: 3%;
+    margin-left: 1%;
+}
+#leftgap{
+    margin-left:43%;
+}
