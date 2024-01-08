@@ -27,7 +27,7 @@ setInterval(nextImage, 2000);
 
 
 
-let imagearray = ['https://imtiaz.com.pk/wp-content/uploads/2022/02/1002-x-563.jpg','https://i.ytimg.com/vi/EsKf2MmT-hA/sddefault.jpg']
+let imagearray = ['https://imtiaz.com.pk/wp-content/uploads/2022/02/1002-x-563.jpg','https://i.ytimg.com/vi/EsKf2MmT-hA/sddefault.jpg','images/coffee.jpg']
 let imageindex = [0];
 
 const autoimg = () =>{
