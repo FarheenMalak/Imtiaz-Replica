@@ -1,0 +1,211 @@
+/* Styles for screens up to 768px wide MobilePhones */
+@media (min-width: 200px) and (max-width: 767px) {
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+    }
+    .mobilenav{
+        display: block;
+    }
+    .mobilenav a{
+        color: aliceblue;
+    }
+    .navbar-toggler {
+        display: block;
+    }
+    
+    .navbar-nav {
+        padding-left: 0;
+        display: none;
+    }
+    
+    .navbar-toggler:hover + .navbar-nav {
+        display: block;
+    }
+    
+    .navbar.scrolled {
+        padding-left: 0;
+    }
+    .main{
+        width: 100%;
+        height: 230px;
+        background-image: url("images/coffee.jpg");
+        background-repeat: no-repeat;
+        background-size: contain;
+        margin-top: 18%;
+    }
+    .background{
+        height: 230px;
+    }
+    .mynavbar{
+        display: none;
+    }
+    .navbar{
+        padding-left: 0%;
+    }
+    #logo{
+        height: 40%;
+        width: 40%;
+    }
+    .listitem{
+        border: none;
+        filter: none;
+        display: inline;
+        z-index: 1000;
+    }
+    .mobilenav{
+        top: 0%;
+        width: 100%;
+        height: 100px;
+        z-index: 1000;
+        visibility: visible;
+        position: absolute;
+    }
+    .aboutus{
+        width: 100%;
+        text-align: center;
+    }.aboutus .mid{
+        margin-left: 0px;
+        padding: 10px;
+        border: 2px solid black;
+        border-radius: 40px;
+        background-color: white;
+        margin-top: 3%;    
+    }   
+h2{
+    color:rgb(9, 100, 219);
+}.topmargin{
+    margin-top: 7%;
+    margin-bottom: 2%;
+}
+.mid{
+    margin-left: 35%;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 40px;
+    background-color: white;
+    margin-top: 3%;
+}
+
+.image-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    gap: 2px;
+   margin-left:3%;
+   margin-right: 3%;
+   padding: 0%;
+}
+.image-container .card-image{
+    margin-top: 4%;
+}
+.grid{
+  margin-left: 3%;
+  grid-template-rows: 50px 80px 50px 80px;
+  grid-template-columns: 100px 100px 100px ;
+  gap: 5%;
+  margin-top: 10%;
+  font-size: medium;
+  text-align: center;
+}
+.cardsgrid{
+    display: flex;
+    flex-direction: column;
+    margin: 5% 1% 5% 1%;
+    padding: 0%;
+}
+.flex{
+    flex-direction: column;
+    align-items: center;
+    margin-left: 15%;
+}
+.flex div{
+    margin-top: 5%;
+}
+#gallerybtn{
+    margin-top: 0%;
+}
+.career{
+    height: 600px;
+}
+.leftpara{
+    margin-left: 3%;
+    font-size: 75%;
+    text-align:left;
+    padding: 0%;
+}
+#transparent{
+    position: relative;
+    bottom: 2%;
+    padding: 2%;
+    font-size: small;
+    border: 2px solid black;
+    border-radius: 40px;
+    margin-left: 35%;
+    margin-top: 0%;
+}
+.lefthead{
+    text-align: center;
+    margin: 0%;
+    margin-left: 30%;
+}
+.float{
+    float: right;
+    height: 300px;
+    width: 100%;
+    margin-top: 0;
+    margin-right: 0%;
+}
+.form{
+    margin-left: 5%;
+}
+.form label{
+    margin-left: 3%;
+}
+.form input{
+    margin-left: 1%;
+    width: 90%;
+}
+.submit{
+    width: 30%;
+    margin-left: 33%;
+    margin-top: 5%;
+}
+.carousel{
+    margin-left: 0%;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+}
+.slider{
+    width: 25%;
+    height: 90%;
+}
+.footerimg{
+    height: 20%;
+    width: 20%;
+    margin-left: 35%;
+    float: none;
+}
+.gridtwo{
+    display: grid;
+    grid-template-rows: 30px 200px;
+    grid-template-columns: 130px 120px 100px;
+    gap: 2%;
+    font-size: x-small;
+    margin-top: 7%;
+}
+.endimg{
+    height: 15%;
+    width: 10%;
+    margin-left: 5%;
+}
+#leftgap{
+    margin-left:30%;
+}
+.endpara{
+    margin-left: 23%;
+}
+}
