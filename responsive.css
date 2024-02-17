@@ -209,3 +209,149 @@ h2{
     margin-left: 23%;
 }
 }
+@media (min-width: 1200px){
+    body{
+        margin: 0%;
+        padding: 0%;
+        overflow-x: hidden;
+    }
+    #main{
+        width: 100%;
+        background-image: url("images/coffee.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        z-index: 1000;
+    }
+    .background{
+        height: 700px;
+    }
+    .mobilenav{
+        display: none;
+      }
+      #logo-toggler{
+        display: none;
+      }
+    li{
+        color: #ffffffe3;
+        border-bottom: 2px solid transparent;
+        transition: border-color 0.5s ease-in-out;
+        text-decoration: none;
+        list-style-type:none;
+        width: 135px;
+    }
+    #largewidth{
+        width: 300px;
+    }
+    .roundborder{
+        border-radius: 40px;
+        margin-right: 10%;
+    }
+    li:hover{
+       border-color: white;
+    }
+    .navbar.scrolled {
+        background-image: none;
+        background-color: #ffffff;
+        position: fixed;
+        padding: 2px;
+    }
+    .navbar.scrolled li{
+        color: gray;
+    }
+    .navbar.scrolled li:hover{
+        border-color: rgb(9, 100, 219);
+    }
+    .navbar.scrolled{
+        position: fixed;
+    }
+    .center{
+        text-align: center;
+        margin-top: 2%;
+    }
+    h2{
+        color:rgb(9, 100, 219);
+    }.topmargin{
+        margin-top: 5%;
+        margin-bottom: 2%;
+    }
+    .mid{
+        margin-left: 46%;
+        padding: 10px;
+        border: 2px solid black;
+        border-radius: 40px;
+        background-color: white;
+        margin-top: 3%;
+    }
+    
+    .image-container{
+        display: grid;
+        grid-template-rows: 500px;
+        grid-template-columns: 280px 280px 280px 280px ;
+        gap: 10px;
+       margin-left:6%;
+       margin-top: 9%;
+       margin-bottom: 0%;}
+    .blog{
+        background-color: rgb(231, 228, 228);
+        width: 100%;
+        height: 500px;
+        margin-top: 0%;
+    }
+    #zerotop{
+        margin-top: 0%;
+        padding-top: 3%;
+        font-weight: bolder;
+        font-size: 50px;
+        background-color:  rgb(231, 228, 228);
+    }
+    .grid{
+        display: grid;
+        grid-template-rows: 80px 80px 80px 80px;
+        grid-template-columns: 250px 250px 250px ;
+        margin-top: 5%;
+        margin-left: 25%;
+    }
+    .orange{
+        color: #DD9933;
+    }
+    .cardstyle{
+        margin-left: 5%;
+        padding: 18%;
+        text-align: center;
+        display: inline;
+        
+    }
+    .cardhead{
+        color: black;
+        margin: 3% 3.5% 2% 3.5%;
+    }
+    .cardsgrid{
+        display: grid;
+        grid-template-rows: 500px 500px 550px 500px 500px 600px 600px;
+        grid-template-columns: 400px 400px 400px  ;
+        row-gap: 28px;
+        column-gap: 2px;
+    }
+    .card{
+        display: inline-block;
+        box-shadow: 0 20px 20px 0 rgba(0, 0, 0, 0.2), 0 20px 20px 0 rgba(0, 0, 0, 0.19);
+        position: unset;
+        overflow: hidden;
+        scale: 1;
+        transition: ease-in scale 0.5s;
+    }
+    .card:hover img{
+        transform: scale(1.1) rotate(0.5deg);
+    }
+    .hoverbtn:hover{
+        background-color: black;
+        color: #ffffff;
+    }
+    .galleryimg{
+        width: 80%;
+        height: 80%;
+        margin: auto;
+        transition: ease-in-out width 1.5s;
+    }
+    
+ }
