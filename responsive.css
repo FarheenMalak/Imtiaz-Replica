@@ -240,7 +240,7 @@ h2{
         width: 135px;
     }
     #largewidth{
-        width: 300px;
+        width: 310px;
     }
     .roundborder{
         border-radius: 40px;
@@ -288,7 +288,7 @@ h2{
         grid-template-rows: 500px;
         grid-template-columns: 280px 280px 280px 280px ;
         gap: 10px;
-       margin-left:6%;
+       margin-left:2.5%;
        margin-top: 9%;
        margin-bottom: 0%;}
     .blog{
