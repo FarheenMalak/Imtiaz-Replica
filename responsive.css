@@ -288,7 +288,7 @@ h2{
         grid-template-rows: 500px;
         grid-template-columns: 280px 280px 280px 280px ;
         gap: 10px;
-       margin-left:2.5%;
+       margin-left:2%;
        margin-top: 9%;
        margin-bottom: 0%;}
     .blog{
@@ -353,5 +353,4 @@ h2{
         margin: auto;
         transition: ease-in-out width 1.5s;
     }
-    
  }
